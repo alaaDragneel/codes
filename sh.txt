@@ -1,0 +1,13 @@
+cd /path/to/file
+chmod +x filename.sh
+./filename.sh
+
+or 
+
+
+sudo ./filename.sh
+
+
+or final
+
+sudo bash filename.sh

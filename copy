@@ -1,0 +1,7 @@
+sudo cp -R /path_to_folder_to_copy/ /var/www/
+
+
+
+
+sudo nautilus
+
