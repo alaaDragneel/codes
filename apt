@@ -1,0 +1,13 @@
+ps -A | grep apt-get
+
+sudo kill -9 <id of process>
+
+sudo dpkg --configure -a
+
+still error 
+
+sudo rm /var/lib/apt/lists/lock
+
+or finall
+sudo rm /var/cache/apt/archives/lock
+sudo rm /var/lib/dpkg/lock
