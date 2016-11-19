@@ -1,0 +1,3 @@
+php artisan migrate:install => install the migration file only
+
+php artisan migrate:status => see the stATUS OF THE MIGRATION FILES
