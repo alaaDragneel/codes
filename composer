@@ -1,1 +1,6 @@
 sudo apt install composer
+
+CURL
+
+sudo apt-get install curl php-curl php-mcrypt php-mbstring php-gettext
+
