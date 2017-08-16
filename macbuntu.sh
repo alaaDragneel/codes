@@ -1,8 +1,8 @@
 1.1.Docky:
 
-add-apt-repository ppa:docky-core/stable && apt-get update
-apt-get purge docky
-apt-get install docky
+sudo add-apt-repository ppa:docky-core/stable && apt-get update
+sudo apt-get purge docky
+sudo apt-get install docky
 **************************************************************
 1: Mac OS X Lion Theme, Icons and cursors:
 
