@@ -1,17 +1,7 @@
 #!/usr/bin/env bash
 
-sudo apt update
+sudo apt -y remove vim-tiny
 
-sudo apt install -y git
+sudo apt -y update
 
-sudo apt install -y build-essential
-
-rm -fr /tmp/vim
-
-git clone https://github.com/vim/vim.git /tmp/vim
-
-make -C /tmp/vim
-
-sudo make install -C /tmp/vim
-
-rm -fr /tmp/vim
+sudo apt -y install vim
